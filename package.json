@@ -1,0 +1,22 @@
+{
+  "name": "typst.ts-test1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@myriaddreamin/typst.ts": "^0.5.1",
+    "@myriaddreamin/typst-ts-web-compiler": "^0.5.1",
+    "@myriaddreamin/typst-ts-renderer": "^0.5.1",
+    "solid-js": "^1.9.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.5",
+    "vite-plugin-solid": "^2.11.0"
+  }
+}
